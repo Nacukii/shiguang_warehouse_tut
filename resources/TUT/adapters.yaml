@@ -1,0 +1,9 @@
+# resources/TUT/adapters.yaml
+adapters:
+  - adapter_id: "TUT_01"
+    adapter_name: "天津理工大学-统一身份认证(ehall)"
+    category: "BACHELOR_AND_ASSOCIATE"
+    asset_js_path: "tut_01.js"
+    import_url: "https://ehall.tjut.edu.cn/login"
+    maintainer: "YG"
+    description: "登录统一身份认证后读取 ehall 学生首页「课表」卡片，导入本学期课程与作息；导入后请确认开学日期。"
